@@ -1,12 +1,13 @@
 
-ejecutar: 
+Instalar: 
 git clone https://github.com/FJTSYSTEMS2014/nmapAutomatizado.git
 cd nmapAutomatizado
 chmod +x ./nmapAutomatizado.sh
 sudo apt install -y $(cat requerimientos.txt)
 
 
-
+ejecutar: 
+ ./nmapAutomatizado.sh 
 uso:
  ./nmapAutomatizado.sh --host 192.168.0.1  --type All     
  ./nmapAutomatizado.sh --host 192.168.0.1 -t Basic
