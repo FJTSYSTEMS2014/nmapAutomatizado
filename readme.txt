@@ -11,10 +11,9 @@ ejecutar:
 uso:
  ./nmapAutomatizado.sh --host 192.168.0.1  --type All     
  ./nmapAutomatizado.sh --host 192.168.0.1 -t Basic
-./nmapAutomatizado.sh --host  192.168.0.1 -t network -s ./ruta_al_ejecutable_de_Nmap_que_se_utilizará_para_el_escaneo/nmap
-ideal CTF
-./nmapAutomatizado.sh --host plataformaHackTheBox.htb -t Recon -d 8.8.8.8
+./nmapAutomatizado.sh --host  192.168.0.1 -t network -s ./ruta_al_ejecutable_de_Nmap
 
+./nmapAutomatizado.sh --host plataformaHackTheBox.htb -t Recon -d 8.8.8.8
 La extensión ".htb" es comúnmente utilizada por la plataforma Hack The Box (HTB)
 
 
