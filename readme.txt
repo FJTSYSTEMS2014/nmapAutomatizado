@@ -1,4 +1,10 @@
-ejecutar: sudo apt install -y $(cat requerimientos.txt)
+
+ejecutar: 
+git clone https://github.com/FJTSYSTEMS2014/nmapAutomatizado.git
+cd nmapAutomatizado
+chmod +x ./nmapAutomatizado.sh
+sudo apt install -y $(cat requerimientos.txt)
+
 
 
 uso:
