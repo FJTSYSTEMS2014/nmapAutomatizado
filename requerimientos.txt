@@ -1,0 +1,10 @@
+nmap
+nikto
+ffuf
+gobuster
+enum4linux
+smbmap
+wpscan
+joomscan
+ldapsearch
+snmp-check
