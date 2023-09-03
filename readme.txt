@@ -36,7 +36,7 @@ Scan Types:
 
 info español:
 
-El archivo "nmapAutomatizado.sh" es un script automatizado que utiliza la herramienta de escaneo de red Nmap para realizar diversas tareas de escaneo en una red o en un host específico. El script tiene varias opciones de uso que permiten realizar diferentes tipos de escaneos y análisis de seguridad en un objetivo determinado. Aquí tienes una explicación de las opciones y los tipos de escaneo disponibles:
+El archivo "nmapAutomatizado.sh" es un script automatizado que utiliza la herramienta de escaneo de red Nmap para realizar diversas tareas de escaneo en una red o en un host específico. Guarda el resultado de cada tipo de escaneo en archivos txt separados en una carpeta que se genera automaticamente (Por ejemplo: si escaneamos la ip 192.168.0.1 ese es el nombre de la carpeta de salida).El script tiene varias opciones de uso que permiten realizar diferentes tipos de escaneos y análisis de seguridad en un objetivo determinado. Aquí tienes una explicación de las opciones y los tipos de escaneo disponibles:
 
 Opciones Obligatorias:
 
